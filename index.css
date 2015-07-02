@@ -8,7 +8,7 @@
           }
           
           a:hover{
-            color: purple;
+            color: blue;
           }
           
           
@@ -31,33 +31,122 @@
       
         h1{
         text-align:center;
-        color: white;
+        color: black;
       }
         h3{
         text-align:center;
       }
        
        
+       a{
+         list-style-type: none;
+       }
      
      body{
-        color: white ; 
+        color: black ; 
         font-family: cursive;
      }
      body{
-         background-image:url("https://upload.wikimedia.org/wikipedia/commons/1/19/Dublin_Philharmonic_Orchestra_performing_Tchaikovsky's_Symphony_No_4_in_Charlotte,_North_Carolina.jpg");
+        background: url("footer_lodyas.png");
         background-size: cover;
-        background-repeat: no-repeat;
+        background-repeat: repeat;
      }
      
-     #Hello{
+     
+     .Hello{
        color:white;
      }
             
         
-        #why{
+        .why{
          text-align: left;
         }
-        #h2{
+        .h2{
         text-align: center;
         }
         
+        .wrapper{
+          width: 960px;
+          margin: 0 auto;
+        }
+        
+        .header{
+          float:left;
+          background: white;
+          margin: 10px 0 0 0;
+          width: 99.5%;
+          height: 100px; 
+          }
+        
+        .main_content{
+          float: left;
+          background: white;
+          margin: 10px 5px 10px 0;
+          width: 620px;
+          height:630px;
+        }
+        
+        .sidebar{
+          float: right;
+          background: white;
+          margin: 10px 5px 5px 6px;
+          width:324px;
+          height:630px;
+        }
+        
+        .footer{
+          clear: both;
+          float: left;
+          background: white;
+          width: 99.5%;
+          height: 100px;
+          margin-bottom: 10px;
+        }
+a, u {
+    text-decoration: none;
+   color:rgb(120,120,120);
+}
+.search_form{
+  margin: 10px 0 100px 70px;
+}
+.search_form input{
+  padding: 5px;
+}
+
+.sidebar-list{
+  margin:20px;
+}
+.sidebar-list li{
+  list-style: none;
+  margin: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted black;
+}
+.sidebar-list li a{
+  text-decoration: none;
+  color:rgb(120,120,120);
+  font-size: 30px;
+}
+.sidebar-list a:hover{
+  color: blue;
+}
+.pianopic{
+  width: 323px;
+  height: 100px;
+  
+}
+#pwork{
+  width: 600px;
+  text-align: center;
+
+}
+.music{
+  float: center;
+  width:323px; 
+  margin: 0 0 0 150px;
+  border-bottom-width: medium
+}
+
+.music1{
+  margin:0 6000px 0 0;
+}
