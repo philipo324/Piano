@@ -30,6 +30,8 @@ nav{
   opacity: .75;
   font-family: cursive;
   font-size: 30px;
+  color:black;
+  
 }
 body{
   background: url("footer_lodyas.png");
@@ -51,29 +53,31 @@ body{
 }
 .header{
   float:left;
-  background: white;
+  background: white ;
   margin: 10px 0 0 0;
-  width: 99.5%;
   height: 100px; 
+  position: fixed;
+  opacity: .75;
+  width:955.2px;
 }
 .main_content{
   float: left;
   background: white;
-  margin: 10px 5px 10px 0;
+  margin: 120px 5px 10px 0;
   width: 620px;
   height:630px;
 }
 .main_content2{
   float: left;
   background: white;
-  margin: 20px 5px 10px 0;
+  margin: 120px 5px 10px 0;
   width: 955.2px;
   height:630px;
 }
 .sidebar{
   float: right;
   background: white;
-  margin: 10px 5px 5px 6px;
+  margin: 120px 5px 5px 6px;
   width:324px;
   height:630px;
 }
@@ -106,6 +110,7 @@ a, u {
   text-decoration: none;
   color:rgb(120,120,120);
   font-size: 30px;
+  
 }
 .sidebar-list a:hover{
   color:blue;
@@ -162,4 +167,11 @@ tr:hover{
   float: right;
   margin:0px 200px 0px 0px;
   width:.1px;
+}
+iframe{
+  width:300px;
+  height:170px;
+}
+.hi{
+  border-bottom: 1px dotted black;
 }
