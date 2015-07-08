@@ -1,87 +1,103 @@
-nav{
-  color:rgb(255,255,255);
+nav {
+  color: rgb(255, 255, 255);
 }
-a:hover{
-  color:blue;
+
+a:hover {
+  color: blue;
   font-weight: 900;
 }
-nav{
+
+nav {
   font-family: cursive;
   font-size: 30px;
   list-style-type: none;
 }
-nav li{
-  float:left; 
+
+nav li {
+  float: left;
   display: block;
   margin: 5px;
 }
-h1{
-  text-align:center;
+
+h1 {
+  text-align: center;
   color: black;
 }
-a{
+
+a {
   list-style-type: none;
 }
-body{
-  color: black ; 
+
+body {
+  color: black;
   font-family: cursive;
 }
-nav{
+
+nav {
   opacity: .75;
   font-family: cursive;
   font-size: 30px;
-  color:black;
-  
+  color: black;
 }
-body{
+
+body {
   background: url("footer_lodyas.png");
   background-size: cover;
   background-repeat: repeat;
 }
-.Hello{
- color:white;
+
+.Hello {
+  color: white;
 }
-.why{
- text-align: left;
+
+.why {
+  text-align: left;
 }
-.h2{
- text-align: center;
+
+.h2 {
+  text-align: center;
 }
-.wrapper{
+
+.wrapper {
   width: 960px;
   margin: 0 auto;
 }
-.header{
-  float:left;
-  background: white ;
+
+.header {
+  float: left;
+  background: white;
   margin: 10px 0 0 0;
-  height: 100px; 
+  height: 100px;
   position: fixed;
   opacity: .75;
-  width:955.2px;
+  width: 955.2px;
 }
-.main_content{
+
+.main_content {
   float: left;
   background: white;
   margin: 120px 5px 10px 0;
   width: 620px;
-  height:630px;
+  height: 630px;
 }
-.main_content2{
+
+.main_content2 {
   float: left;
   background: white;
   margin: 120px 5px 10px 0;
   width: 955.2px;
-  height:630px;
+  height: 630px;
 }
-.sidebar{
+
+.sidebar {
   float: right;
   background: white;
   margin: 120px 5px 5px 6px;
-  width:324px;
-  height:630px;
+  width: 324px;
+  height: 630px;
 }
-.footer{
+
+.footer {
   clear: both;
   float: left;
   background: white;
@@ -90,88 +106,110 @@ body{
   margin-bottom: 10px;
   margin-top: 1px;
 }
-a, u {
+
+a,
+u {
   text-decoration: none;
-  color:rgb(120,120,120);
+  color: rgb(120, 120, 120);
 }
-.search_form input{
+
+.search_form input {
   padding: 5px;
 }
-.sidebar-list{
-  margin:20px;
+
+.sidebar-list {
+  margin: 20px;
 }
-.sidebar-list li{
+
+.sidebar-list li {
   list-style: none;
   margin: 10px 0 1px 10px;
   padding-bottom: 10px;
   border-bottom: 1px dotted black;
 }
-.sidebar-list li a{
+
+.sidebar-list li a {
   text-decoration: none;
-  color:rgb(120,120,120);
+  color: rgb(120, 120, 120);
   font-size: 30px;
-  
 }
-.sidebar-list a:hover{
-  color:blue;
+
+.sidebar-list a:hover {
+  color: blue;
   font-weight: 900;
 }
-.pianopic{
+
+.pianopic {
   width: 323px;
   height: 200px;
 }
-.music{
+
+.music {
   float: none;
-  width:323px; 
+  width: 323px;
   margin: 0 0 0 150px;
   border-bottom-width: medium;
 }
-.music1{
-  margin:0 6000px 0 0;
+
+.music1 {
+  margin: 0 6000px 0 0;
 }
-.Song{
+
+.Song {
   font-size: 30px;
   width: 620px;
   text-align: center;
 }
-.main_contentp3{
+
+.main_contentp3 {
   background: white;
   margin: 10px 5px 10px 0;
   width: 99.5%;
   height: 620px;
   overflow: scroll;
 }
+
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
-table, th, td {
+
+table,
+th,
+td {
   border: 1px solid black;
 }
-tr:hover{
-  background-color:rgb(192,192,192);
+
+tr:hover {
+  background-color: rgb(192, 192, 192);
 }
-#home a{
-  color:blue;
+
+#home a {
+  color: blue;
 }
-#Yello{
-  width:52%;
-  margin:0 auto;
-}
-.kl{
-  text-align:center;
-  width:80%;
+
+#Yello {
+  width: 52%;
   margin: 0 auto;
 }
-.ms{
-  float:none;
+
+.kl {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.ms {
+  float: none;
   float: right;
-  margin:0px 200px 0px 0px;
-  width:.1px;
+  margin: 0px 200px 0px 0px;
+  width: .1px;
 }
-iframe{
-  width:300px;
-  height:170px;
+
+iframe {
+  width: 300px;
+  height: 170px;
 }
-.hi{
+
+.hi {
   border-bottom: 1px dotted black;
 }
