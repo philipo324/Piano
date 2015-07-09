@@ -72,16 +72,14 @@ body {
   opacity: .75;
   width: 955.2px;
 }
-.header1 {
+
+header {
   float: left;
   background: white;
   margin: 10px 0 0 0;
   height: 200px;
-  
-  
   width: 955.2px;
 }
-
 
 .main_content {
   float: left;
@@ -91,11 +89,11 @@ body {
   height: 630px;
 }
 
-.main_content2 {
+section {
   float: left;
   background: white;
   width: 955.2px;
-  height: 5030px;
+  height: 5530px;
 }
 
 .sidebar {
@@ -106,7 +104,7 @@ body {
   height: 630px;
 }
 
-.footer {
+footer {
   clear: both;
   float: left;
   background: white;
@@ -223,122 +221,140 @@ iframe {
   border-bottom: 1px dotted black;
 }
 
-
- 
 .clearfix:after {
-    display:block;
-    clear:both;
+  display: block;
+  clear: both;
 }
- 
 /*----- Menu Outline -----*/
+
 .menu-wrap {
-    width:100%;
-    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
-    background: black;
-}
- 
-.menu {
-    width:80%;
-    margin:0px auto;
-}
- 
-.menu li {
-    margin:0px;
-    list-style:none;
-    font-family:'Ek Mukta';
-}
- 
-.menu a {
-    transition:all linear 0.15s;
-    color:#919191;
-}
- 
-.menu li:hover > a, .menu .current-item > a {
-    text-decoration:none;
-    color:#be5b70;
-}
- 
-.menu .arrow {
-    font-size:11px;
-    line-height:0%;
-}
- 
-/*----- Top Level -----*/
-.menu > ul > li {
-    float:left;
-    display:block;
-    position:relative;
-    font-size:19px;
-}
- 
-.menu > ul > li > a {
-    padding:20px 40px;
-    position:relative;
-    bottom:19px;
-    right:25px;
-    display:inline-block;
-    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
-}
- 
-.menu > ul > li:hover > a, .menu > ul > .current-item > a {
-    background:black;
-}
- 
-/*----- Bottom Level -----*/
-.menu li:hover .sub-menu {
-    z-index:1;
-    opacity:1;
-}
- 
-.sub-menu {
-    width:100%;
-    padding:5px 0px;
-    position:absolute;
-    top:100%;
-    left:0px;
-    z-index:-1;
-    opacity:0;
-    transition:opacity linear 0.15s;
-    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
-    background: black;
-    
-}
- 
-.sub-menu li {
-    display:block;
-    font-size:16px;
-}
- 
-.sub-menu li a {
-    padding:10px 30px;
-    display:block;
-}
- 
-.sub-menu li a:hover, .sub-menu .current-item a {
-    background: black;
+  width: 100%;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  background: black;
 }
 
-#hiw{
+.menu {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.menu li {
+  margin: 0px;
+  list-style: none;
+  font-family: 'Ek Mukta';
+}
+
+.menu a {
+  transition: all linear 0.15s;
+  color: #919191;
+}
+
+.menu li:hover > a,
+.menu .current-item > a {
+  text-decoration: none;
+  color: #be5b70;
+}
+
+.menu .arrow {
+  font-size: 11px;
+  line-height: 0%;
+}
+/*----- Top Level -----*/
+
+.menu > ul > li {
+  float: left;
+  display: block;
+  position: relative;
+  font-size: 19px;
+}
+
+.menu > ul > li > a {
+  padding: 20px 40px;
+  position: relative;
+  bottom: 19px;
+  right: 25px;
+  display: inline-block;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+}
+
+.menu > ul > li:hover > a,
+.menu > ul > .current-item > a {
+  background: black;
+}
+/*----- Bottom Level -----*/
+
+.menu li:hover .sub-menu {
+  z-index: 1;
+  opacity: 1;
+}
+
+.sub-menu {
+  width: 100%;
+  padding: 5px 0px;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity linear 0.15s;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  background: black;
+}
+
+.sub-menu li {
+  display: block;
+  font-size: 16px;
+}
+
+.sub-menu li a {
+  padding: 10px 30px;
+  display: block;
+}
+
+.sub-menu li a:hover,
+.sub-menu .current-item a {
+  background: black;
+}
+
+#hiw {
   border: 3px solid black;
   border-top: 3px solid white;
-  
 }
-.hiww{
+
+.hiww {
   border: black 10px solid;
   float: right;
 }
-p, h1, h2, h3{
- font-family:'Ek Mukta';
+
+p,
+h1,
+h2,
+h3 {
+  font-family: 'Ek Mukta';
 }
 
-.uy{
-  background-color:#CCE5FF;
-  border:3px #99CCFF solid;
-  width:700px;
-  padding:10px;
+article {
+  background-color: #CCE5FF;
+  border: 3px #99CCFF solid;
+  width: 700px;
+  padding: 10px;
   margin: 0 auto;
 }
-h3, h2{
-  
-text-align:center;
+
+h3,
+h2 {
+  text-align: center;
+}
+
+article {
+  width: 700px;
+  margin: 0 auto;
+}
+table{
+  text-align:center;
+  width:706px;
+  margin: 0 auto;
+}
+h2{
+  font-size: 32px;
 }
