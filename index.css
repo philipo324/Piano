@@ -67,7 +67,7 @@ body {
   float: left;
   background: white;
   margin: 10px 0 0 0;
-  height: 100px;
+  height: 200px;
   position: fixed;
   opacity: .75;
   width: 955.2px;
@@ -76,8 +76,8 @@ body {
   float: left;
   background: white;
   margin: 10px 0 0 0;
-  height: 100px;
-  position: fixed;
+  height: 200px;
+  
   
   width: 955.2px;
 }
@@ -94,9 +94,8 @@ body {
 .main_content2 {
   float: left;
   background: white;
-  margin: 120px 5px 10px 0;
   width: 955.2px;
-  height: 630px;
+  height: 5030px;
 }
 
 .sidebar {
@@ -114,7 +113,7 @@ body {
   width: 99.5%;
   height: 100px;
   margin-bottom: 10px;
-  margin-top: 1px;
+  margin-top: 0px;
 }
 
 a,
@@ -239,7 +238,7 @@ iframe {
 }
  
 .menu {
-    width:1000px;
+    width:80%;
     margin:0px auto;
 }
  
@@ -273,7 +272,10 @@ iframe {
 }
  
 .menu > ul > li > a {
-    padding:10px 40px;
+    padding:20px 40px;
+    position:relative;
+    bottom:19px;
+    right:25px;
     display:inline-block;
     text-shadow:0px 1px 0px rgba(0,0,0,0.4);
 }
@@ -314,4 +316,29 @@ iframe {
  
 .sub-menu li a:hover, .sub-menu .current-item a {
     background: black;
+}
+
+#hiw{
+  border: 3px solid black;
+  border-top: 3px solid white;
+  
+}
+.hiww{
+  border: black 10px solid;
+  float: right;
+}
+p, h1, h2, h3{
+ font-family:'Ek Mukta';
+}
+
+.uy{
+  background-color:#CCE5FF;
+  border:3px #99CCFF solid;
+  width:700px;
+  padding:10px;
+  margin: 0 auto;
+}
+h3, h2{
+  
+text-align:center;
 }
