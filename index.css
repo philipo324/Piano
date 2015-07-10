@@ -289,11 +289,10 @@ iframe {
 }
 
 .sub-menu {
-  width: 100%;
-  padding: 5px 0px;
+  width: 77%;
   position: absolute;
-  top: 100%;
-  left: 0px;
+  top: 40px;
+  left: -25px;
   z-index: -1;
   opacity: 0;
   transition: opacity linear 0.15s;
@@ -307,7 +306,7 @@ iframe {
 }
 
 .sub-menu li a {
-  padding: 10px 30px;
+  padding: 10px 10px;
   display: block;
 }
 
@@ -363,4 +362,8 @@ h2 {
 
 article > p {
   font-size: 16px;
+}
+
+article{
+  border-radius: 50px;
 }
