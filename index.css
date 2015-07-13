@@ -28,10 +28,7 @@ a {
   list-style-type: none;
 }
 
-body {
-  color: black;
-  font-family: cursive;
-}
+
 
 nav {
   opacity: .75;
@@ -41,7 +38,7 @@ nav {
 }
 
 body {
-  background: url("footer_lodyas.png");
+  background:url(footer_lodyas.png);
   background-size: cover;
   background-repeat: repeat;
 }
@@ -75,7 +72,7 @@ body {
 
 header {
   float: left;
-  background: white;
+  background: #EAFFFB;
   margin: 10px 0 0 0;
   height: 200px;
   width: 955.2px;
@@ -91,14 +88,15 @@ header {
 
 section {
   float: left;
-  background: white;
+  background: #EAFFFB;
   width: 955.2px;
-  height: 5930px;
+  height: 5230px;
+  margin-bottom: 20px;
 }
 
 .sidebar {
   float: right;
-  background: white;
+  background: #EAFFFB;
   margin: 120px 5px 5px 6px;
   width: 324px;
   height: 630px;
@@ -107,7 +105,7 @@ section {
 footer {
   clear: both;
   float: left;
-  background: white;
+  background: #EAFFFB;
   width: 99.5%;
   height: 100px;
   margin-bottom: 10px;
@@ -252,7 +250,7 @@ iframe {
 .menu li:hover > a,
 .menu .current-item > a {
   text-decoration: none;
-  color: #be5b70;
+  color:#EAFFFB ;
 }
 
 .menu .arrow {
@@ -295,7 +293,7 @@ iframe {
   left: -25px;
   z-index: -1;
   opacity: 0;
-  transition: opacity linear 0.15s;
+  transition: opacity linear .35s;
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
   background: black;
 }
@@ -332,9 +330,9 @@ h3 {
   font-family: 'Ek Mukta';
 }
 
-article {
-  background-color: #CCE5FF;
-  border: 3px #99CCFF solid;
+article, section > p {
+  background-color:rgb(118,158,151);
+  border: 3px rgb(0,107,88) solid;
   width: 700px;
   padding: 10px;
   margin: 0 auto;
@@ -360,10 +358,59 @@ h2 {
   font-size: 32px;
 }
 
-article > p {
-  font-size: 16px;
+article > p, article > h3, section > p {
+  font-size: px;
+  color:white;
 }
 
 article{
   border-radius: 50px;
+}
+article > h3{
+  font-size:25px;
+}
+
+ h1, h3, h2{
+  color:#003988;
+}
+@media screen and (max-width: 300px) {
+    body {
+        width:100%;
+    }
+}
+
+nav a:hover { cursor: progress; }
+
+#e{
+  width:80%;
+  margin: 0 auto;
+}
+
+#short{
+  float: left;
+  background: #EAFFFB;
+  width: 955.2px;
+  height: 530px;
+  margin-bottom: 20px;
+}
+section > p{
+  font-size:20px;
+   border-radius: 50px;
+   text-align:center;
+}
+
+#j{
+  float: left;
+  background: #EAFFFB;
+  width: 955.2px;
+  height: 1430px;
+  margin-bottom: 20px;
+}
+
+#sh{
+  float: left;
+  background: #EAFFFB;
+  width: 955.2px;
+  height: 530px;
+  margin-bottom: 20px;
 }
