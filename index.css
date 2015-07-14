@@ -1,416 +1,455 @@
 nav {
-  color: rgb(255, 255, 255);
+  color:#fff
 }
 
 a:hover {
-  color: blue;
-  font-weight: normal;
+  color:blue;
+  font-weight:400
 }
 
 nav {
-  font-family: cursive;
-  font-size: 30px;
-  list-style-type: none;
+  font-family:cursive;
+  font-size:30px;
+  list-style-type:none
 }
 
 nav li {
-  float: left;
-  display: block;
-  margin: 5px;
+  float:left;
+  display:block;
+  margin:5px
 }
 
 h1 {
-  text-align: center;
-  color: black;
+  text-align:center;
+  color:#000
 }
 
 a {
-  list-style-type: none;
+  list-style-type:none
 }
 
-
-
 nav {
-  opacity: .75;
-  font-family: cursive;
-  font-size: 30px;
-  color: black;
+  opacity:.75;
+  font-family:cursive;
+  font-size:30px;
+  color:#000
 }
 
 body {
   background:url(footer_lodyas.png);
-  background-size: cover;
-  background-repeat: repeat;
+  background-size:cover;
+  background-repeat:repeat
 }
 
 .Hello {
-  color: white;
+  color:#fff
 }
 
 .why {
-  text-align: left;
+  text-align:left
 }
 
 .h2 {
-  text-align: center;
+  text-align:center
 }
 
 .wrapper {
-  width: 960px;
-  margin: 0 auto;
+  width:960px;
+  margin:0 auto
 }
 
 .header {
-  float: left;
-  background: white;
-  margin: 10px 0 0 0;
-  height: 200px;
-  position: fixed;
-  opacity: .75;
-  width: 955.2px;
+  float:left;
+  background:#fff;
+  margin:10px 0 0;
+  height:200px;
+  position:fixed;
+  opacity:.75;
+  width:955.2px
 }
 
 header {
-  float: left;
-  background: #EAFFFB;
-  margin: 10px 0 0 0;
-  height: 200px;
-  width: 955.2px;
+  float:left;
+  background:#EAFFFB;
+  margin:10px 0 0;
+  height:200px;
+  width:955.2px
 }
 
 .main_content {
-  float: left;
-  background: white;
-  margin: 120px 5px 10px 0;
-  width: 620px;
-  height: 630px;
+  float:left;
+  background:#fff;
+  margin:120px 5px 10px 0;
+  width:620px;
+  height:630px
 }
 
 section {
-  float: left;
-  background: #EAFFFB;
-  width: 955.2px;
-  height: 5230px;
-  margin-bottom: 20px;
+  float:left;
+  background:#EAFFFB;
+  width:955.2px;
+  height:5230px;
+  margin-bottom:20px
 }
 
 .sidebar {
-  float: right;
-  background: #EAFFFB;
-  margin: 120px 5px 5px 6px;
-  width: 324px;
-  height: 630px;
+  float:right;
+  background:#EAFFFB;
+  margin:120px 5px 5px 6px;
+  width:324px;
+  height:630px
 }
 
 footer {
-  clear: both;
-  float: left;
-  background: #EAFFFB;
-  width: 99.5%;
-  height: 100px;
-  margin-bottom: 10px;
-  margin-top: 0px;
+  clear:both;
+  float:left;
+  background:#EAFFFB;
+  width:99.5%;
+  height:100px;
+  margin-bottom:10px;
+  margin-top:0
 }
 
-a,
-u {
-  text-decoration: none;
-  color: rgb(120, 120, 120);
+a,u {
+  text-decoration:none;
+  color:#787878
 }
 
 .search_form input {
-  padding: 5px;
+  padding:5px
 }
 
 .sidebar-list {
-  margin: 20px;
+  margin:20px
 }
 
 .sidebar-list li {
-  list-style: none;
-  margin: 10px 0 1px 10px;
-  padding-bottom: 10px;
-  border-bottom: 1px dotted black;
+  list-style:none;
+  margin:10px 0 1px 10px;
+  padding-bottom:10px;
+  border-bottom:1px dotted #000
 }
 
 .sidebar-list li a {
-  text-decoration: none;
-  color: rgb(120, 120, 120);
-  font-size: 30px;
+  text-decoration:none;
+  color:#787878;
+  font-size:30px
 }
 
 .sidebar-list a:hover {
-  color: blue;
-  font-weight: 900;
+  color:blue;
+  font-weight:900
 }
 
 .pianopic {
-  width: 323px;
-  height: 200px;
+  width:323px;
+  height:200px
 }
 
 .music {
-  float: none;
-  width: 323px;
-  margin: 0 0 0 150px;
-  border-bottom-width: medium;
+  float:none;
+  width:323px;
+  margin:0 0 0 150px;
+  border-bottom-width:medium
 }
 
 .music1 {
-  margin: 0 6000px 0 0;
+  margin:0 6000px 0 0
 }
 
 .Song {
-  font-size: 30px;
-  width: 620px;
-  text-align: center;
+  font-size:30px;
+  width:620px;
+  text-align:center
 }
 
 .main_contentp3 {
-  background: white;
-  margin: 10px 5px 10px 0;
-  width: 99.5%;
-  height: 620px;
-  overflow: scroll;
+  background:#fff;
+  margin:10px 5px 10px 0;
+  width:99.5%;
+  height:620px;
+  overflow:scroll
 }
 
 table {
-  border-collapse: collapse;
+  border-collapse:collapse
 }
 
-table,
-th,
-td {
-  border: 1px solid black;
+table,th,td {
+  border:1px solid #000
 }
 
 tr:hover {
-  background-color: rgb(192, 192, 192);
+  background-color:silver
 }
 
 #home a {
-  color: blue;
+  color:blue
 }
 
 #Yello {
-  width: 52%;
-  margin: 0 auto;
+  width:52%;
+  margin:0 auto
 }
 
 .kl {
-  text-align: center;
-  width: 80%;
-  margin: 0 auto;
+  text-align:center;
+  width:80%;
+  margin:0 auto
 }
 
 .ms {
-  float: none;
-  float: right;
-  margin: 0px 200px 0px 0px;
-  width: .1px;
+  float:none;
+  float:right;
+  margin:0 200px 0 0;
+  width:.1px
 }
 
 iframe {
-  width: 300px;
-  height: 170px;
+  width:300px;
+  height:170px
 }
 
 .hi {
-  border-bottom: 1px dotted black;
+  border-bottom:1px dotted #000
 }
 
 .clearfix:after {
-  display: block;
-  clear: both;
+  display:block;
+  clear:both
 }
-/*----- Menu Outline -----*/
 
+/*----- Menu Outline -----*/
 .menu-wrap {
-  width: 100%;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
-  background: black;
+  width:100%;
+  box-shadow:0 1px 3px rgba(0,0,0,0.2);
+  background:#000
 }
 
 .menu {
-  width: 80%;
-  margin: 0px auto;
+  width:80%;
+  margin:0 auto
 }
 
 .menu li {
-  margin: 0px;
-  list-style: none;
-  font-family: 'Ek Mukta';
+  margin:0;
+  list-style:none;
+  font-family:'Ek Mukta'
 }
 
 .menu a {
-  transition: all linear 0.15s;
-  color: #919191;
+  transition:all linear .15s;
+  color:#919191
 }
 
-.menu li:hover > a,
-.menu .current-item > a {
-  text-decoration: none;
-  color:#EAFFFB ;
+.menu li:hover > a,.menu .current-item > a {
+  text-decoration:none;
+  color:#EAFFFB
 }
 
 .menu .arrow {
-  font-size: 11px;
-  line-height: 0%;
+  font-size:11px;
+  line-height:0
 }
-/*----- Top Level -----*/
 
+/*----- Top Level -----*/
 .menu > ul > li {
-  float: left;
-  display: block;
-  position: relative;
-  font-size: 19px;
+  float:left;
+  display:block;
+  position:relative;
+  font-size:19px
 }
 
 .menu > ul > li > a {
-  padding: 20px 40px;
-  position: relative;
-  bottom: 19px;
-  right: 25px;
-  display: inline-block;
-  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+  padding:20px 40px;
+  position:relative;
+  bottom:19px;
+  right:25px;
+  display:inline-block;
+  text-shadow:0 1px 0 rgba(0,0,0,0.4)
 }
 
-.menu > ul > li:hover > a,
-.menu > ul > .current-item > a {
-  background: black;
+.menu > ul > li:hover > a,.menu > ul > .current-item > a {
+  background:#000
 }
+
 /*----- Bottom Level -----*/
-
 .menu li:hover .sub-menu {
-  z-index: 1;
-  opacity: 1;
+  z-index:1;
+  opacity:1
 }
 
 .sub-menu {
-  width: 77%;
-  position: absolute;
-  top: 40px;
-  left: -25px;
-  z-index: -1;
-  opacity: 0;
-  transition: opacity linear .35s;
-  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
-  background: black;
+  width:77%;
+  position:absolute;
+  top:40px;
+  left:-25px;
+  z-index:-1;
+  opacity:0;
+  transition:opacity linear .35s;
+  box-shadow:0 2px 3px rgba(0,0,0,0.2);
+  background:#000
 }
 
 .sub-menu li {
-  display: block;
-  font-size: 16px;
+  display:block;
+  font-size:16px
 }
 
 .sub-menu li a {
-  padding: 10px 10px;
-  display: block;
+  padding:10px;
+  display:block
 }
 
-.sub-menu li a:hover,
-.sub-menu .current-item a {
-  background: black;
+.sub-menu li a:hover,.sub-menu .current-item a {
+  background:#000
 }
 
 #hiw {
-  border: 3px solid black;
-  border-top: 3px solid white;
+  border:3px solid #000;
+  border-top:3px solid #fff
 }
 
 .hiww {
-  border: black 10px solid;
-  float: right;
+  border:#000 10px solid;
+  float:right
 }
 
-p,
-h1,
-h2,
-h3 {
-  font-family: 'Ek Mukta';
+p,h1,h2,h3,i {
+  font-family:'Ek Mukta'
 }
 
-article, section > p {
-  background-color:rgb(118,158,151);
-  border: 3px rgb(0,107,88) solid;
-  width: 700px;
-  padding: 10px;
-  margin: 0 auto;
+article,section > p {
+  background-color:#769e97;
+  border:3px #006b58 solid;
+  width:700px;
+  padding:10px;
+  margin:0 auto
 }
 
-h3,
-h2 {
-  text-align: center;
+h3,h2 {
+  text-align:center
 }
 
 article {
-  width: 700px;
-  margin: 0 auto;
+  width:700px;
+  margin:0 auto
 }
 
 table {
-  text-align: center;
-  width: 706px;
-  margin: 0 auto;
+  text-align:center;
+  width:706px;
+  margin:0 auto
 }
 
 h2 {
-  font-size: 32px;
+  font-size:32px
 }
 
-article > p, article > h3, section > p {
-  font-size: px;
-  color:white;
+article > p,article > h3,section > p {
+  font-size:17px;
+  color:#fff
 }
 
-article{
-  border-radius: 50px;
-}
-article > h3{
-  font-size:25px;
+article {
+  border-radius:50px
 }
 
- h1, h3, h2{
-  color:#003988;
+article > h3 {
+  font-size:25px
 }
+
+h1,h3,h2 {
+  color:#003988
+}
+
 @media screen and (max-width: 300px) {
-    body {
-        width:100%;
-    }
+section {
+  width:100%
+}
 }
 
-nav a:hover { cursor: progress; }
+nav a:hover {
+  cursor:progress
+}
 
-#e{
+#e {
   width:80%;
-  margin: 0 auto;
+  margin:0 auto
 }
 
-#short{
-  float: left;
-  background: #EAFFFB;
-  width: 955.2px;
-  height: 530px;
-  margin-bottom: 20px;
+#short {
+  float:left;
+  background:#EAFFFB;
+  width:955.2px;
+  height:630px;
+  margin-bottom:20px
 }
-section > p{
+
+section > p {
   font-size:20px;
-   border-radius: 50px;
-   text-align:center;
+  border-radius:50px;
+  text-align:center
 }
 
-#j{
-  float: left;
-  background: #EAFFFB;
-  width: 955.2px;
-  height: 1430px;
-  margin-bottom: 20px;
+#j {
+  float:left;
+  background:#EAFFFB;
+  width:955.2px;
+  height:1430px;
+  margin-bottom:20px
 }
 
-#sh{
-  float: left;
-  background: #EAFFFB;
-  width: 955.2px;
-  height: 530px;
-  margin-bottom: 20px;
+#sh {
+  float:left;
+  background:#EAFFFB;
+  width:955.2px;
+  height:530px;
+  margin-bottom:20px
+}
+
+#hel {
+  font-size:25px;
+  color:#003988;
+  margin:0 0 0 100px
+}
+
+#blog-post {
+  font-size:16px;
+  color:#fff
+}
+
+.share-buttons img {
+  width:35px;
+  padding:5px;
+  margin:100px 0;
+  display:inline
+}
+
+#yolo {
+  display:block
+}
+
+#he {
+  font-size:35px
+}
+
+#ka {
+  float:left;
+  background:#EAFFFB;
+  width:955.2px;
+  height:980px;
+  margin-bottom:20px
+}
+
+#a {
+  font-size:20px
+}
+
+#im {
+  font-size:15px;
+}
+
+*{
+  text-align:center;
 }

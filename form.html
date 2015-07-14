@@ -1,63 +1,128 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
+
   <title>About Page</title>
-  <link rel="stylesheet" href="index.css" type="text/css">
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ek+Mukta">
+  <link href="index.css" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Ek+Mukta" rel="stylesheet"
+  type="text/css">
 </head>
 
 <body>
   <div class="wrapper">
     <header>
-      <center><img id="hiw" src="http://cdn.designrshub.com/wp-content/uploads/2012/02/03_piano_logo.png" width=150></center>
+      <img id="hiw" src=
+      "http://cdn.designrshub.com/wp-content/uploads/2012/02/03_piano_logo.png"
+      width="150"><br>
+
+
       <div class="menu-wrap">
         <nav class="menu">
           <ul class="clearfix">
-            <li><a href="index.html">Home</a></li>
             <li>
-              <a href="Musicians.html">Musicians <span class="arrow">&#9660;</span></a>
+              <a href="index.html">Home</a>
+            </li>
+
+
+            <li>
+              <a href="Musicians.html">Musicians <span class=
+              "arrow">&#9660;</span></a>
 
               <ul class="sub-menu">
-                <li><a href="Musicians.html#Baroque">Baroque</a></li>
-                <li><a href="Musicians.html#Classical">Classical</a></li>
-                <li><a href="Musicians.html#Romantic">Romantic</a></li>
+                <li>
+                  <a href="Musicians.html#Baroque">Baroque</a>
+                </li>
 
+
+                <li>
+                  <a href="Musicians.html#Classical">Classical</a>
+                </li>
+
+
+                <li>
+                  <a href="Musicians.html#Romantic">Romantic</a>
+                </li>
               </ul>
             </li>
-            <li><a href="Blog.html">Blog</a></li>
-            <li class="current-item"><a href="about.html">About</a></li>
-            <li><a href="#footer">Contact</a></li>
+
+
+            <li>
+              <a href="Blog.html">Blog</a>
+            </li>
+
+
+            <li>
+              <a href="about.html">About</a>
+            </li>
+
+
+            <li class="current-item">
+              <a href="#footer">Contact</a>
+            </li>
           </ul>
         </nav>
-
       </div>
     </header>
-    <section id="sh">
-    	<h1>Contact Us!</h1>
-     <center> <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-	<div class="row">
-		<label for="name">Your name:</label><br />
-		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-	</div>
-	<div class="row">
-		<label for="email">Your email:</label><br />
-		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-	</div>
-	<div class="row">
-		<label for="message">Your message:</label><br />
-		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-	</div>
-	<input id="submit_button" type="submit" value="Send email" />
-</form>	</center>
-  
-  <footer>
-    <h2 id="contact">Contact Info</h2>
-  </footer>
-  </section>
-  </div>
-  
-</body>
 
+
+    <section id="sh">
+      <h1>Contact Us!</h1>
+
+
+      <form action="#" enctype="multipart/form-data" id="contact_form" method=
+      "post" name="contact_form">
+        <div class="row">
+          <label for="name">Your name:</label><br>
+          <input class="input" id="name" name="name" size="30" type="text"
+          value=""><br>
+        </div>
+
+
+        <div class="row">
+          <label for="email">Your email:</label><br>
+          <input class="input" id="email" name="email" size="30" type="text"
+          value=""><br>
+        </div>
+
+
+        <div class="row">
+          <label for="message">Your message:</label><br>
+
+          <textarea class="input" cols="30" id="message" name="message" rows=
+          "7">
+</textarea><br>
+        </div>
+        <input id="submit_button" type="submit" value="Send email">
+      </form>
+      <br>
+
+
+      <footer>
+        <div class="share-buttons">
+          <!-- Email -->
+          <a href=""><img alt="Email" src=
+          "https://simplesharebuttons.com/images/somacro/email.png"></a> 
+          <!-- Facebook -->
+           <a href="http://www.facebook.com" target="_blank"><img alt=
+          "Facebook" src=
+          "https://simplesharebuttons.com/images/somacro/facebook.png"></a> 
+          <!-- Google+ -->
+           <a href="https://plus.google.com" target="_blank"><img alt="Google"
+          src="https://simplesharebuttons.com/images/somacro/google.png"></a> 
+          <!-- Reddit -->
+           <a href="http://reddit.com" target="_blank"><img alt="Reddit" src=
+          "https://simplesharebuttons.com/images/somacro/reddit.png"></a> 
+          <!-- Tumblr-->
+           <a href="http://www.tumblr.com" target="_blank"><img alt="Tumblr"
+          src="https://simplesharebuttons.com/images/somacro/tumblr.png"></a> 
+          <!-- Twitter -->
+           <a href="https://twitter.com" target="_blank"><img alt="Twitter"
+          src="https://simplesharebuttons.com/images/somacro/twitter.png"></a>
+        </div>
+        <br>
+      </footer>
+    </section>
+  </div>
+</body>
 </html>
