@@ -314,10 +314,6 @@ iframe {
   float:right
 }
 
-p,h1,h2,h3,i {
-  font-family:'Ek Mukta'
-}
-
 article,section > p {
   background-color:#769e97;
   border:3px #006b58 solid;
