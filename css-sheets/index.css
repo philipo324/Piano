@@ -458,7 +458,7 @@ div > iframe {
 }
 
 p {
-  clear:left
+  clear:inherit;
 }
 
 #je {
@@ -473,4 +473,12 @@ p {
 
 p {
   text-align:left
+}
+
+p,h1,h2,h3 {
+  font-family: 'Ek Mukta';
+}
+
+h2{
+  font-weight:900;
 }
