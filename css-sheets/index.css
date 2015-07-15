@@ -523,3 +523,11 @@ h2 {
 #hu {
   font-size:17px;
 }
+
+#submit > h1{
+  font-size:17px;
+}
+
+#submit > h2{
+  font-size:14;
+}
