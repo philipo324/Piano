@@ -37,8 +37,7 @@ nav {
 
 body {
   background:url(../images/footer_lodyas.png);
-  
-  background-repeat:repeat;
+  background-repeat:repeat
 }
 
 .Hello {
@@ -88,8 +87,8 @@ section {
   float:left;
   background:#EAFFFB;
   width:955.2px;
-  height: 8230px;
-  margin-bottom:0px
+  height:8230px;
+  margin-bottom:0
 }
 
 .sidebar {
@@ -229,10 +228,7 @@ iframe {
 .menu {
   width:80%;
   margin:0 auto
-  
 }
-
-
 
 .menu li {
   margin:0;
@@ -261,7 +257,6 @@ iframe {
   display:block;
   position:relative;
   font-size:19px
-  
 }
 
 .menu > ul > li > a {
@@ -323,12 +318,12 @@ p,h1,h2,h3,i {
   font-family:'Ek Mukta'
 }
 
-article, section > p {
+article,section > p {
   background-color:#769e97;
   border:3px #006b58 solid;
   width:700px;
   padding:10px;
-  margin:0 auto;
+  margin:0 auto
 }
 
 h3,h2 {
@@ -368,16 +363,13 @@ h1,h3,h2 {
 }
 
 @media screen and (max-width: 780px) {
-  section, nav, footer, header{
-    width: 100%;
-    
-    
-  }
+section,nav,footer,header {
+  width:100%
+}
 }
 
-
 nav a:hover {
-  cursor: url(images/http://images.clipartpanda.com/music-note-transparent-background-RTAR6agTL.png), auto;
+  cursor:url(images/http://images.clipartpanda.com/music-note-transparent-background-RTAR6agTL.png),auto
 }
 
 #e {
@@ -396,14 +388,14 @@ nav a:hover {
 section > p {
   font-size:20px;
   border-radius:50px;
-  text-align:center;
+  text-align:center
 }
 
 #j {
   float:left;
   background:#EAFFFB;
   width:955.2px;
-  height: 1370px;
+  height:1370px;
   margin-bottom:20px
 }
 
@@ -414,7 +406,6 @@ section > p {
   height:480px;
   margin-bottom:20px
 }
-
 
 #blog-post {
   font-size:16px;
@@ -445,11 +436,11 @@ section > p {
 }
 
 #im {
-  font-size:15px;
+  font-size:15px
 }
 
-*{
-  text-align:center;
+* {
+  text-align:center
 }
 
 div > iframe {
@@ -457,7 +448,7 @@ div > iframe {
   border:3px #006b58 solid;
   padding:10px;
   margin:0 auto;
-  border-radius:50px;
+  border-radius:50px
 }
 
 #hel {
@@ -465,20 +456,19 @@ div > iframe {
   color:#003988
 }
 
-#im{
+#im {
   line-height:20px;
-  font-size: 18px;
+  font-size:18px
 }
 
-#a{
-  font-size:25px;
+#a {
+  font-size:25px
 }
 
-p{
-  clear:left;
+p {
+  clear:left
 }
 
-h3 > span{
-  color: red;
+h3 > span {
+  color:red
 }
-
