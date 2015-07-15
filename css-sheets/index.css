@@ -36,9 +36,9 @@ nav {
 }
 
 body {
-  background:url(footer_lodyas.png);
-  background-size:cover;
-  background-repeat:repeat
+  background:url(../images/footer_lodyas.png);
+  
+  background-repeat:repeat;
 }
 
 .Hello {
@@ -88,8 +88,8 @@ section {
   float:left;
   background:#EAFFFB;
   width:955.2px;
-  height:5230px;
-  margin-bottom:20px
+  height: 8230px;
+  margin-bottom:0px
 }
 
 .sidebar {
@@ -229,7 +229,10 @@ iframe {
 .menu {
   width:80%;
   margin:0 auto
+  
 }
+
+
 
 .menu li {
   margin:0;
@@ -258,6 +261,7 @@ iframe {
   display:block;
   position:relative;
   font-size:19px
+  
 }
 
 .menu > ul > li > a {
@@ -319,12 +323,12 @@ p,h1,h2,h3,i {
   font-family:'Ek Mukta'
 }
 
-article,section > p {
+article, section > p {
   background-color:#769e97;
   border:3px #006b58 solid;
   width:700px;
   padding:10px;
-  margin:0 auto
+  margin:0 auto;
 }
 
 h3,h2 {
@@ -363,14 +367,17 @@ h1,h3,h2 {
   color:#003988
 }
 
-@media screen and (max-width: 300px) {
-section {
-  width:100%
-}
+@media screen and (max-width: 780px) {
+  section, nav, footer, header{
+    width: 100%;
+    
+    
+  }
 }
 
+
 nav a:hover {
-  cursor:progress
+  cursor: url(images/http://images.clipartpanda.com/music-note-transparent-background-RTAR6agTL.png), auto;
 }
 
 #e {
@@ -389,14 +396,14 @@ nav a:hover {
 section > p {
   font-size:20px;
   border-radius:50px;
-  text-align:center
+  text-align:center;
 }
 
 #j {
   float:left;
   background:#EAFFFB;
   width:955.2px;
-  height:1430px;
+  height: 1370px;
   margin-bottom:20px
 }
 
@@ -404,15 +411,10 @@ section > p {
   float:left;
   background:#EAFFFB;
   width:955.2px;
-  height:530px;
+  height:480px;
   margin-bottom:20px
 }
 
-#hel {
-  font-size:25px;
-  color:#003988;
-  margin:0 0 0 100px
-}
 
 #blog-post {
   font-size:16px;
@@ -426,10 +428,6 @@ section > p {
   display:inline
 }
 
-#yolo {
-  display:block
-}
-
 #he {
   font-size:35px
 }
@@ -438,7 +436,7 @@ section > p {
   float:left;
   background:#EAFFFB;
   width:955.2px;
-  height:980px;
+  height:1080px;
   margin-bottom:20px
 }
 
@@ -453,3 +451,34 @@ section > p {
 *{
   text-align:center;
 }
+
+div > iframe {
+  background-color:#769e97;
+  border:3px #006b58 solid;
+  padding:10px;
+  margin:0 auto;
+  border-radius:50px;
+}
+
+#hel {
+  font-size:25px;
+  color:#003988
+}
+
+#im{
+  line-height:20px;
+  font-size: 18px;
+}
+
+#a{
+  font-size:25px;
+}
+
+p{
+  clear:left;
+}
+
+h3 > span{
+  color: red;
+}
+
