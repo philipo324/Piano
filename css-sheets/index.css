@@ -87,7 +87,7 @@ section {
   float:left;
   background:#EAFFFB;
   width:955.2px;
-  height: 9450px;
+  height: 940px;
   margin-bottom:0
 }
 
@@ -432,7 +432,7 @@ section > p {
 }
 
 #im {
-  font-size:1px
+  font-size:18px
 }
 
 div > iframe {
