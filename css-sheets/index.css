@@ -479,6 +479,10 @@ p,h1,h2,h3 {
   font-family: 'Ek Mukta';
 }
 
-h2{
+h2 {
   font-weight:900;
+}
+
+#hu {
+  font-size:1;
 }
