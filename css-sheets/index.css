@@ -435,9 +435,6 @@ section > p {
   font-size:15px
 }
 
-* {
-  text-align:center
-}
 
 div > iframe {
   background-color:#769e97;
@@ -463,8 +460,15 @@ div > iframe {
 
 p {
   clear:left
+
 }
 
-h3 > span {
-  color:red
+#je{
+  color:red;
+  width:70%;
+  margin: 0 auto;
+}
+
+*{
+  text-align: center;
 }
